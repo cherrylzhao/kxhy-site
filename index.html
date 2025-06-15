@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KXHY - 数字化解决方案</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 300;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 4rem 0;
+        }
+        
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .service-card {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        .contact {
+            margin: 2rem 0;
+            padding: 2rem;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>KXHY</h1>
+            <p class="subtitle">专业的数字化解决方案提供商</p>
+        </div>
+    </header>
+
+    <main class="container content">
+        <section>
+            <h2 style="text-align: center; margin-bottom: 2rem;">我们的服务</h2>
+            <div class="services">
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>网站开发</h3>
+                    <p>专业的网站设计与开发服务，为您打造现代化的在线形象</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>移动应用</h3>
+                    <p>iOS和Android原生应用开发，提供优质的用户体验</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>技术咨询</h3>
+                    <p>专业的技术咨询服务，助力企业数字化转型</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2 style="text-align: center; margin-bottom: 1rem;">联系我们</h2>
+            <p style="text-align: center;">
+                邮箱: contact@kxhy.site<br>
+                电话: +86 138-xxxx-xxxx<br>
+                地址: 中国·上海
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 KXHY. 保留所有权利.</p>
+        </div>
+    </footer>
+</body>
+</html>
